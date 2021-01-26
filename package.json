@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:single-spa:my-app": "ng build my-app --prod --deploy-url http://localhost:4200/",
-    "build:netlify:my-app": "ng build my-app --prod --deploy-url ./",
+    "build:netlify:my-app": "ng build my-app --prod",
     "serve:single-spa:my-app": "ng s --project my-app --disable-host-check --port 4200 --deploy-url http://localhost:4200/ --live-reload false"
   },
   "private": true,
